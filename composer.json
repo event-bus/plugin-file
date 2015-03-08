@@ -1,0 +1,32 @@
+{
+    "name": "aztech/event-bus-plugin-file",
+    "description": "aztech/event-bus file queue plugin",
+    "keywords": [
+        "event",
+        "events",
+        "dispatch",
+        "aztech"
+    ],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Aztech\\Events\\Bus\\Plugins\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "aztech/event-bus": "~1"
+    },
+    "require-dev": {
+        "aztech/coding-standard": "~0.1",
+        "mikey179/vfsStream": "~1",
+        "phpunit/phpunit": "~4.2",
+        "squizlabs/php_codesniffer": "~1.5",
+        "vektah/bugfree-dangerzone": "0.3.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
